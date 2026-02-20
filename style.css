@@ -5,20 +5,52 @@ body{
     
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #eee;
 }
 section{
      margin-top: 40px; 
 }
 .container{
-    width: 70%;
-      margin: auto;  
+    width: 90%;
+      margin: auto; 
+      max-width: 1000px;
+
 }
 input:focus{
     outline: none;
     border: 5px black solid;
-   
-   
+}
+   img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+   }
+   .contact{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+   }
+  .contact input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+.contact button{
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+ 
   
 
 
-}
